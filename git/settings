@@ -1,0 +1,15 @@
+Starting out with setting up git, create a repo. (not sure how through CLI).
+Set credentials using;
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+
+Initialize repo with a README.md (markdown lang)
+echo "# <some_title>" > README.md
+git init
+git add README.md // Adds file to be worked upon
+git commit -m "commit message"
+git branch -M main // rename  <oldbranch> to 'main' if capital M, forces rename (if eg. <oldbranch> got turned into new one by having intermediate commits
+git remote add origin https://url_to_repo.git
+
+git status shows where in the lifecycle of files we are on the current branch; eg. untracked, unmodified, modified, staged.
+A reminder if git-fu needs to be refreshed, visit git-scm.com, the docs are beyond awesome.
