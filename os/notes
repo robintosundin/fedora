@@ -1,0 +1,11 @@
+Regular globbing in shell is for ?, *, [...]
+? matches single char
+* any char
+[...] any of enclosed chars
+
+Extended globbing adds further functionality to shell line:
+?(list): Matches zero or one occurrence of the given patterns.
+*(list): Matches zero or more occurrences of the given patterns.
++(list): Matches one or more occurrences of the given patterns.
+@(list): Matches one of the given patterns.
+!(list): Matches anything but the given patterns. 
