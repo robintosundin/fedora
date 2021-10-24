@@ -44,3 +44,6 @@ Tags are used to mark a point in development such as a version. To easier see wh
 Tags needs to be pushed to a remote same as commits.
 
 git diff --staged # Shows diff of staged files
+
+Next up, learn about how branching can aid collaboration in dev work continentally.
+And/Or continue with setting up a dev environment for a new project.
