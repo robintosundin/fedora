@@ -9,3 +9,6 @@ Extended globbing adds further functionality to shell line:
 +(list): Matches one or more occurrences of the given patterns.
 @(list): Matches one of the given patterns.
 !(list): Matches anything but the given patterns. 
+
+
+To type tilde on 10keyless keyboard, use FN-S+ESC
