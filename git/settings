@@ -13,3 +13,8 @@ git remote add origin https://url_to_repo.git
 
 git status shows where in the lifecycle of files we are on the current branch; eg. untracked, unmodified, modified, staged.
 A reminder if git-fu needs to be refreshed, visit git-scm.com, the docs are beyond awesome.
+
+git commit -a -m 'blabla' # Commits changes, skipping staging area (i.e. skips staging file with git add)
+git rm <file> # removes <file> from git and working directory, it stages the files removal for a commit
+git rm --cached <file> # keep file in working dir but stage <file> for removal in git (e.g. if staged but forgot to add something to .gitignore
+git mv <file_old> <file_new> # Convenience function involving 3 cmds:% mv <file_old> <file_new> && git rm <file_old> && git add <file_new>
