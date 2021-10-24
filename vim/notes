@@ -1,2 +1,4 @@
 In order to record a macro press q and then save it to a chracter a-z.
 To perform a macro over and over (30 times), one can use e.g. 30@z
+
+To copy in to X11 register (is it actually the TTY?), use visual mode. This copies into middle-mouse-button buffer in other applications.

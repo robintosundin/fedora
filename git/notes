@@ -18,3 +18,29 @@ git commit -a -m 'blabla' # Commits changes, skipping staging area (i.e. skips s
 git rm <file> # removes <file> from git and working directory, it stages the files removal for a commit
 git rm --cached <file> # keep file in working dir but stage <file> for removal in git (e.g. if staged but forgot to add something to .gitignore
 git mv <file_old> <file_new> # Convenience function involving 3 cmds:% mv <file_old> <file_new> && git rm <file_old> && git add <file_new>
+
+
+git log has many useful flags for viewing the commit history. Most useful is likely -p (for verbosity on actual edits made)
+with the flag --pretty you can use format as such: git log --pretty=format:"%h - %an, %ar : %s" to make it fit with machine parsing
+Specifier 	Description of Output
+%H		Commit hash
+%h		Abbreviated commit hash
+%T		Tree hash
+%t		Abbreviated tree hash
+%P		Parent hashes
+%p		Abbreviated parent hashes
+%an		Author name
+%ae		Author email
+%ad		Author date (format respects the --date=option)
+%ar		Author date, relative
+%cn		Committer name
+%ce		Committer email
+%cd		Committer date
+%cr		Committer date, relative
+%s		Subject
+
+
+Tags are used to mark a point in development such as a version. To easier see where one iteration begins and ends.
+Tags needs to be pushed to a remote same as commits.
+
+git diff --staged # Shows diff of staged files
