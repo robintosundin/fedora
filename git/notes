@@ -47,3 +47,4 @@ git diff --staged # Shows diff of staged files
 
 Next up, learn about how branching can aid collaboration in dev work continentally.
 And/Or continue with setting up a dev environment for a new project.
+Branching and creating a merge conflict perhaps, by adding this line.
