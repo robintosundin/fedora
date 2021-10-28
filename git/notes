@@ -47,4 +47,10 @@ git diff --staged # Shows diff of staged files
 
 Next up, learn about how branching can aid collaboration in dev work continentally.
 And/Or continue with setting up a dev environment for a new project.
+
+Always keep main (master) branch clean and not as a work space to push changes from.
+This way allows for easier collaboration and merging from upstream developments.
+pull = fetch + merge
+For a remote that has an upstream repository it is convention name that remote upstream
+git is encouraging the use of many branches to support effortless collaboration
 Branching and creating a merge conflict perhaps, by adding this line.
