@@ -3,6 +3,10 @@ Set credentials using;
 git config --global user.name "<name>"
 git config --global user.email "<email>"
 
+First time interacting with github, log in with username/oauth token. The token is generated on github and then stored with set credential helper.
+Set the credential helper that git utilizes with:
+git config --global credential.helper libsecret # Alternatives to libsecret exists
+
 Initialize repo with a README.md (markdown lang)
 echo "# <some_title>" > README.md
 git init
