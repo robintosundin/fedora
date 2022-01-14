@@ -3,7 +3,8 @@ HISTFILE=~/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
 setopt appendhistory
-setopt extendedglob
+#setopt extendedglob
+
 # Vi mode navigation
 bindkey -v
 # Yank to sys clipboard, requires xclip package
