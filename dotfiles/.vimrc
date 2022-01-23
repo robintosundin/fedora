@@ -51,3 +51,6 @@ filetype plugin on " sense the filetype
 
 " start at last place you were editing
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+" Format the ruler (bottom-right corner)
+set ruf=%30(%=%#LineNr#%.50F\ [%{strlen(&ft)?&ft:'none'}]\ %l:%c\ %p%%%)
