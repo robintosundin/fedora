@@ -1,2 +1,5 @@
 # fedora
-The general configuration and tweaks for my Fedora34 Workstation
+Personal configuration and tweaks for workstation.
+
+## Todo
+* Write script to automate setup on fresh install.

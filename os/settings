@@ -2,3 +2,4 @@ configure dark theme in gnome-tweaks
 set switching windows within application to super+tab
 set switching windows between applications to alt+tab
 set a custom keybind to open terminal with super+return
+bind caps to esc
