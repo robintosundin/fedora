@@ -1,4 +1,4 @@
-# fedora
+# Fedora
 Personal configuration and tweaks for workstation.
 
 ## Todo
